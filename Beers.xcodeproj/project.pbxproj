@@ -19,6 +19,7 @@
 		3F1ECB32193CD02100B6EB2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1ECB1A193CD02100B6EB2E /* UIKit.framework */; };
 		3F1ECB3A193CD02100B6EB2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1ECB38193CD02100B6EB2E /* InfoPlist.strings */; };
 		3F1ECB3C193CD02100B6EB2E /* BeersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB3B193CD02100B6EB2E /* BeersTests.m */; };
+		3F1ECB47193CD21500B6EB2E /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB46193CD21500B6EB2E /* Beer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3F1ECB37193CD02100B6EB2E /* BeersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeersTests-Info.plist"; sourceTree = "<group>"; };
 		3F1ECB39193CD02100B6EB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F1ECB3B193CD02100B6EB2E /* BeersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeersTests.m; sourceTree = "<group>"; };
+		3F1ECB45193CD21500B6EB2E /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beer.h; path = ../Beer.h; sourceTree = "<group>"; };
+		3F1ECB46193CD21500B6EB2E /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beer.m; path = ../Beer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				3F1ECB25193CD02100B6EB2E /* AppDelegate.h */,
 				3F1ECB26193CD02100B6EB2E /* AppDelegate.m */,
+				3F1ECB45193CD21500B6EB2E /* Beer.h */,
+				3F1ECB46193CD21500B6EB2E /* Beer.m */,
 				3F1ECB28193CD02100B6EB2E /* Images.xcassets */,
 				3F1ECB1D193CD02100B6EB2E /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1ECB47193CD21500B6EB2E /* Beer.m in Sources */,
 				3F1ECB27193CD02100B6EB2E /* AppDelegate.m in Sources */,
 				3F1ECB23193CD02100B6EB2E /* main.m in Sources */,
 			);

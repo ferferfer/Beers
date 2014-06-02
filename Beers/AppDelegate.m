@@ -7,16 +7,31 @@
 //
 
 #import "AppDelegate.h"
+#import "Beer.h"
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+	
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  // Override point for customization after application launch.
+  self.window.backgroundColor = [UIColor whiteColor];
+  [self.window makeKeyAndVisible];
+	
+	// idiom
+	Beer *mahou = [[Beer alloc] init];
+	Beer *cruzcampo = [Beer new]; //se puede pero no se usa peligro de collejas
+	Beer *estrellaDamm = [[Beer alloc] init];
+	
+	[mahou printBeerInfo];
+	[mahou printBeerInfoWithHeader:@"🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺"];
+	[mahou printBeerInfoWithHeader:@"🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺"
+											 andFooter:@"🍺"];
+	[mahou printBeerInfoWithHeader:@"🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺"
+											 andFooter:@"🍺"
+							 andNumberOfEmojis:20];
+	
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
