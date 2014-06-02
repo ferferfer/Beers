@@ -12,7 +12,7 @@
 	//instance Vars
 	NSString *name;
 	NSString *color;
-	NSUInteger alcohol;
+	NSUInteger grade;
 }
 
 - (void)printBeerInfo;

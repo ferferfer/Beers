@@ -13,7 +13,7 @@
 - (void)printBeerInfo{
 	NSLog(@"Name: %@", name);
 	NSLog(@"Color: %@", color);
-	NSLog(@"Degrees: %d", alcohol);
+	NSLog(@"Degrees: %d", grade);
 }
 - (void)printBeerInfoWithHeader:(NSString *)header{
 	NSLog(@"%@\n",header);
