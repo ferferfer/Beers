@@ -10,10 +10,22 @@
 
 @interface Beer : NSObject{
 	//instance Vars
-	NSString *name;
 	NSString *color;
 	NSUInteger grade;
+	NSString *_country;//notacion que define una vble privada _
 }
+
+//getters y setters
+@property (nonatomic,strong) NSString *name;
+
+-(NSString *) color;
+-(void) setColor:(NSString*)newColor;
+
+-(NSUInteger) grade;
+-(void) setGrade:(NSUInteger)newGrade;
+
+-(NSString *) country;
+-(void) setCountry:(NSString*)newCountry;
 
 - (void)printBeerInfo;
 - (void)printBeerInfoWithHeader:(NSString *)header;

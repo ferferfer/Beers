@@ -20,6 +20,11 @@
 		3F1ECB3A193CD02100B6EB2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1ECB38193CD02100B6EB2E /* InfoPlist.strings */; };
 		3F1ECB3C193CD02100B6EB2E /* BeersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB3B193CD02100B6EB2E /* BeersTests.m */; };
 		3F1ECB47193CD21500B6EB2E /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB46193CD21500B6EB2E /* Beer.m */; };
+		3F1ECB4A193DC37C00B6EB2E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB49193DC37C00B6EB2E /* Person.m */; };
+		3F1ECB4E193DE91C00B6EB2E /* EuroConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB4D193DE91C00B6EB2E /* EuroConverter.m */; };
+		3F1ECB52193E049500B6EB2E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */; };
+		3F1ECB57193E0B8A00B6EB2E /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */; };
+		3F1ECB5A193E0CB300B6EB2E /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		3F1ECB3B193CD02100B6EB2E /* BeersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeersTests.m; sourceTree = "<group>"; };
 		3F1ECB45193CD21500B6EB2E /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beer.h; path = ../Beer.h; sourceTree = "<group>"; };
 		3F1ECB46193CD21500B6EB2E /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beer.m; path = ../Beer.m; sourceTree = "<group>"; };
+		3F1ECB48193DC37C00B6EB2E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3F1ECB49193DC37C00B6EB2E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3F1ECB4C193DE91C00B6EB2E /* EuroConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverter.h; sourceTree = "<group>"; };
+		3F1ECB4D193DE91C00B6EB2E /* EuroConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverter.m; sourceTree = "<group>"; };
+		3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		3F1ECB55193E0B8A00B6EB2E /* EuroCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroCalculatorViewController.h; sourceTree = "<group>"; };
+		3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
+		3F1ECB58193E0CB300B6EB2E /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
+		3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +124,11 @@
 		3F1ECB1C193CD02100B6EB2E /* Beers */ = {
 			isa = PBXGroup;
 			children = (
+				3F1ECB4B193DC47B00B6EB2E /* Model */,
+				3F1ECB53193E0AB700B6EB2E /* View */,
+				3F1ECB54193E0ABF00B6EB2E /* Controller */,
 				3F1ECB25193CD02100B6EB2E /* AppDelegate.h */,
 				3F1ECB26193CD02100B6EB2E /* AppDelegate.m */,
-				3F1ECB45193CD21500B6EB2E /* Beer.h */,
-				3F1ECB46193CD21500B6EB2E /* Beer.m */,
 				3F1ECB28193CD02100B6EB2E /* Images.xcassets */,
 				3F1ECB1D193CD02100B6EB2E /* Supporting Files */,
 			);
@@ -147,6 +162,38 @@
 				3F1ECB38193CD02100B6EB2E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F1ECB4B193DC47B00B6EB2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F1ECB45193CD21500B6EB2E /* Beer.h */,
+				3F1ECB46193CD21500B6EB2E /* Beer.m */,
+				3F1ECB48193DC37C00B6EB2E /* Person.h */,
+				3F1ECB49193DC37C00B6EB2E /* Person.m */,
+				3F1ECB4C193DE91C00B6EB2E /* EuroConverter.h */,
+				3F1ECB4D193DE91C00B6EB2E /* EuroConverter.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3F1ECB53193E0AB700B6EB2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F1ECB54193E0ABF00B6EB2E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F1ECB55193E0B8A00B6EB2E /* EuroCalculatorViewController.h */,
+				3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */,
+				3F1ECB58193E0CB300B6EB2E /* EuroConverterViewController.h */,
+				3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +273,7 @@
 			files = (
 				3F1ECB21193CD02100B6EB2E /* InfoPlist.strings in Resources */,
 				3F1ECB29193CD02100B6EB2E /* Images.xcassets in Resources */,
+				3F1ECB52193E049500B6EB2E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1ECB47193CD21500B6EB2E /* Beer.m in Sources */,
+				3F1ECB57193E0B8A00B6EB2E /* EuroCalculatorViewController.m in Sources */,
+				3F1ECB5A193E0CB300B6EB2E /* EuroConverterViewController.m in Sources */,
 				3F1ECB27193CD02100B6EB2E /* AppDelegate.m in Sources */,
+				3F1ECB4A193DC37C00B6EB2E /* Person.m in Sources */,
+				3F1ECB4E193DE91C00B6EB2E /* EuroConverter.m in Sources */,
 				3F1ECB23193CD02100B6EB2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

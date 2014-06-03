@@ -8,20 +8,35 @@
 
 #import "AppDelegate.h"
 #import "Beer.h"
+#import "Person.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
 	
-  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+/*  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   // Override point for customization after application launch.
   self.window.backgroundColor = [UIColor whiteColor];
   [self.window makeKeyAndVisible];
-	
+	*/
 	// idiom
 	Beer *mahou = [[Beer alloc] init];
 	Beer *cruzcampo = [Beer new]; //se puede pero no se usa peligro de collejas
 	Beer *estrellaDamm = [[Beer alloc] init];
+	Beer *coronita=[[Beer alloc]init];
+	
+	[mahou setName:@"Mahou"];
+	[mahou setColor:@"Blond"];
+	[mahou setGrade:5];
+	[cruzcampo setName:@"Cruzcampo"];
+	cruzcampo.color=@"blonde";//cuando llamo 
+	cruzcampo.grade=4;
+	[estrellaDamm setName:@"EstrellaDamm"];
+	estrellaDamm.color=@"blonde";
+	estrellaDamm.grade=4.2;
+	[coronita setName:@"Coronita"];
+	coronita.color=@"blonde";
+	coronita.grade=5.1;
 	
 	[mahou printBeerInfo];
 	[mahou printBeerInfoWithHeader:@"🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺"];
@@ -31,6 +46,38 @@
 											 andFooter:@"🍺"
 							 andNumberOfEmojis:20];
 	
+	
+	//Person
+	NSLog(@"--------Person--------");
+	Person *Fer = [[Person alloc ]init];
+
+	Fer.name=@"Fer";			//son lo
+	[Fer setName:@"Fer"]; //mismo
+	
+	[Fer setAge:30];
+	
+	Fer.address=@"C/alameda";
+	
+	Person *Groucho = [[Person alloc ]init];
+	Person *Harpo = [[Person alloc ]initWithName:@"Harpo"];
+	Person *Chicco = [[Person alloc ]initWithName:@"Chicco" andAddress:@"C/Alameda"];
+	Person *Zeppo = [[Person alloc ]initWithName:@"Zeppo" andAddress:@"C/Alameda" andAge:80];
+
+	
+	NSArray *personList=[NSArray arrayWithObjects:Groucho,Harpo,Chicco,Zeppo,nil];
+
+	
+	NSMutableArray *partyArray=[NSMutableArray arrayWithArray:personList];
+	
+	for (NSUInteger i=0;i<100;i++){
+		NSString *pName=[NSString stringWithFormat:@"Person %d",i+1];
+		
+		Person *p = [[Person alloc] initWithName:pName];
+		[partyArray addObject:p];
+	}
+	for (Person *p in partyArray){
+		NSLog(@"%@",p.name);
+	}
   return YES;
 }
 

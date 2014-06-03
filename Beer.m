@@ -10,8 +10,39 @@
 
 @implementation Beer
 
+
+@synthesize name =_name;//no hace falta ni ponerlo
+
+-(NSString *) name{
+	return _name;
+}
+-(void) setName:(NSString *)newName{
+	_name=newName;
+}
+
+-(NSString *) color{
+	return self->color;
+}
+-(void) setColor:(NSString*)newColor{
+		self->color=newColor;
+}
+
+-(NSUInteger) grade{;
+	return self->grade;
+}
+-(void) setGrade:(NSUInteger)newGrade{
+	self->grade=newGrade;
+}
+
+-(NSString *) country{
+	return _country;
+}
+-(void) setCountry:(NSString*)country{
+	_country=country;
+}
+
 - (void)printBeerInfo{
-	NSLog(@"Name: %@", name);
+	NSLog(@"Name: %@", _name);
 	NSLog(@"Color: %@", color);
 	NSLog(@"Degrees: %d", grade);
 }
@@ -23,16 +54,18 @@
 											andFooter:(NSString *)footer{
 	NSLog(@"%@\n",header);
 	[self printBeerInfo];
-	NSLog(@"\n%@",footer);
+	NSLog(@"%@",footer);
 }
 - (void)printBeerInfoWithHeader:(NSString *)header
 											andFooter:(NSString *)footer
 							andNumberOfEmojis:(NSUInteger)numberOfEmojis{
 	NSLog(@"%@\n",header);
-	[self printBeerInfo];	
+	[self printBeerInfo];
+	NSMutableString *mutFooter;
 	for(NSUInteger i=0;i<numberOfEmojis;i++){
-		NSLog(@"%@\r",footer);
+		[mutFooter appendString:footer];
 	}
+	NSLog(@"%@",mutFooter);
 }
 
 @end
