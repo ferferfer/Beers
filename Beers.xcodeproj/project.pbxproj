@@ -25,6 +25,9 @@
 		3F1ECB52193E049500B6EB2E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */; };
 		3F1ECB57193E0B8A00B6EB2E /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */; };
 		3F1ECB5A193E0CB300B6EB2E /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */; };
+		3FEAB50C193E25C900A04CC8 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAB50B193E25C900A04CC8 /* AlphaViewController.m */; };
+		3FEAB50E193E297D00A04CC8 /* tardis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAB50D193E297C00A04CC8 /* tardis.jpg */; };
+		3FEAB510193E2C4F00A04CC8 /* Doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAB50F193E2C4F00A04CC8 /* Doctor.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,17 +57,21 @@
 		3F1ECB37193CD02100B6EB2E /* BeersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeersTests-Info.plist"; sourceTree = "<group>"; };
 		3F1ECB39193CD02100B6EB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F1ECB3B193CD02100B6EB2E /* BeersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeersTests.m; sourceTree = "<group>"; };
-		3F1ECB45193CD21500B6EB2E /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beer.h; path = ../Beer.h; sourceTree = "<group>"; };
-		3F1ECB46193CD21500B6EB2E /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beer.m; path = ../Beer.m; sourceTree = "<group>"; };
+		3F1ECB45193CD21500B6EB2E /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		3F1ECB46193CD21500B6EB2E /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 		3F1ECB48193DC37C00B6EB2E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3F1ECB49193DC37C00B6EB2E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		3F1ECB4C193DE91C00B6EB2E /* EuroConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverter.h; sourceTree = "<group>"; };
 		3F1ECB4D193DE91C00B6EB2E /* EuroConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverter.m; sourceTree = "<group>"; };
-		3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		3F1ECB55193E0B8A00B6EB2E /* EuroCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroCalculatorViewController.h; sourceTree = "<group>"; };
 		3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		3F1ECB58193E0CB300B6EB2E /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		3FEAB50A193E25C900A04CC8 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		3FEAB50B193E25C900A04CC8 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
+		3FEAB50D193E297C00A04CC8 /* tardis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tardis.jpg; path = ../../../../../../Pictures/tardis.jpg; sourceTree = "<group>"; };
+		3FEAB50F193E2C4F00A04CC8 /* Doctor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Doctor.jpg; path = ../../../../../../Pictures/Doctor.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,11 +131,12 @@
 		3F1ECB1C193CD02100B6EB2E /* Beers */ = {
 			isa = PBXGroup;
 			children = (
+				3F1ECB25193CD02100B6EB2E /* AppDelegate.h */,
+				3F1ECB26193CD02100B6EB2E /* AppDelegate.m */,
+				3F415817193F03830030F8D0 /* Assets */,
 				3F1ECB4B193DC47B00B6EB2E /* Model */,
 				3F1ECB53193E0AB700B6EB2E /* View */,
 				3F1ECB54193E0ABF00B6EB2E /* Controller */,
-				3F1ECB25193CD02100B6EB2E /* AppDelegate.h */,
-				3F1ECB26193CD02100B6EB2E /* AppDelegate.m */,
 				3F1ECB28193CD02100B6EB2E /* Images.xcassets */,
 				3F1ECB1D193CD02100B6EB2E /* Supporting Files */,
 			);
@@ -143,7 +151,7 @@
 				3F1ECB22193CD02100B6EB2E /* main.m */,
 				3F1ECB24193CD02100B6EB2E /* Beers-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3F1ECB35193CD02100B6EB2E /* BeersTests */ = {
@@ -161,7 +169,7 @@
 				3F1ECB37193CD02100B6EB2E /* BeersTests-Info.plist */,
 				3F1ECB38193CD02100B6EB2E /* InfoPlist.strings */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3F1ECB4B193DC47B00B6EB2E /* Model */ = {
@@ -174,7 +182,7 @@
 				3F1ECB4C193DE91C00B6EB2E /* EuroConverter.h */,
 				3F1ECB4D193DE91C00B6EB2E /* EuroConverter.m */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		3F1ECB53193E0AB700B6EB2E /* View */ = {
@@ -182,18 +190,29 @@
 			children = (
 				3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		3F1ECB54193E0ABF00B6EB2E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3FEAB50A193E25C900A04CC8 /* AlphaViewController.h */,
+				3FEAB50B193E25C900A04CC8 /* AlphaViewController.m */,
 				3F1ECB55193E0B8A00B6EB2E /* EuroCalculatorViewController.h */,
 				3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */,
 				3F1ECB58193E0CB300B6EB2E /* EuroConverterViewController.h */,
 				3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */,
 			);
-			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F415817193F03830030F8D0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAB50D193E297C00A04CC8 /* tardis.jpg */,
+				3FEAB50F193E2C4F00A04CC8 /* Doctor.jpg */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +292,8 @@
 			files = (
 				3F1ECB21193CD02100B6EB2E /* InfoPlist.strings in Resources */,
 				3F1ECB29193CD02100B6EB2E /* Images.xcassets in Resources */,
+				3FEAB50E193E297D00A04CC8 /* tardis.jpg in Resources */,
+				3FEAB510193E2C4F00A04CC8 /* Doctor.jpg in Resources */,
 				3F1ECB52193E049500B6EB2E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +318,7 @@
 				3F1ECB5A193E0CB300B6EB2E /* EuroConverterViewController.m in Sources */,
 				3F1ECB27193CD02100B6EB2E /* AppDelegate.m in Sources */,
 				3F1ECB4A193DC37C00B6EB2E /* Person.m in Sources */,
+				3FEAB50C193E25C900A04CC8 /* AlphaViewController.m in Sources */,
 				3F1ECB4E193DE91C00B6EB2E /* EuroConverter.m in Sources */,
 				3F1ECB23193CD02100B6EB2E /* main.m in Sources */,
 			);
@@ -416,8 +438,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Beers/Beers-Prefix.pch";
-				INFOPLIST_FILE = "Beers/Beers-Info.plist";
+				GCC_PREFIX_HEADER = "Beers/Supporting Files/Beers-Prefix.pch";
+				INFOPLIST_FILE = "Beers/Supporting Files/Beers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -429,8 +451,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Beers/Beers-Prefix.pch";
-				INFOPLIST_FILE = "Beers/Beers-Info.plist";
+				GCC_PREFIX_HEADER = "Beers/Supporting Files/Beers-Prefix.pch";
+				INFOPLIST_FILE = "Beers/Supporting Files/Beers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -446,12 +468,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Beers/Beers-Prefix.pch";
+				GCC_PREFIX_HEADER = "Beers/Supporting Files/Beers-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BeersTests/BeersTests-Info.plist";
+				INFOPLIST_FILE = "BeersTests/Supporting Files/BeersTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -468,8 +490,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Beers/Beers-Prefix.pch";
-				INFOPLIST_FILE = "BeersTests/BeersTests-Info.plist";
+				GCC_PREFIX_HEADER = "Beers/Supporting Files/Beers-Prefix.pch";
+				INFOPLIST_FILE = "BeersTests/Supporting Files/BeersTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -495,6 +517,7 @@
 				3F1ECB41193CD02100B6EB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F1ECB42193CD02100B6EB2E /* Build configuration list for PBXNativeTarget "BeersTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +526,7 @@
 				3F1ECB44193CD02100B6EB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
