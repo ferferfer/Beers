@@ -9,6 +9,21 @@
 #import "EuroCalculatorViewController.h"
 
 @implementation EuroCalculatorViewController
+- (IBAction)buttonPressed:(id)sender {
+	//esta forma de hacer la condicion se llama left golden path xq el caso base no queda identado a la derecha y asi es mas sencillo de leer
+	if(![sender isKindOfClass:[UIButton class]]){
+		return;
+	}
+	UIButton *b=(UIButton *)sender;
+	//cuatro veces lo mismo...
+	NSLog(@"presionado el %i",[b tag]);
+	NSLog(@"presionado el %@",b.titleLabel.text);
+	NSLog(@"presionado el %@",[b titleLabel].text);
+	NSLog(@"presionado el %@",[b.titleLabel text]);
+}
+
+
+
 
 
 @end
