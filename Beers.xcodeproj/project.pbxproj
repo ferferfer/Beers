@@ -78,6 +78,7 @@
 		3F474714193F7E0B00B75E4B /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
 		3F474715193F7E0B00B75E4B /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
 		3F474717193F7F1200B75E4B /* HotelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelTests.m; path = "Supporting Files/HotelTests.m"; sourceTree = "<group>"; };
+		3FD66B7D19405C20008832FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3FEAB50A193E25C900A04CC8 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
 		3FEAB50B193E25C900A04CC8 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
 		3FEAB50D193E297C00A04CC8 /* tardis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tardis.jpg; path = ../../../../../../Pictures/tardis.jpg; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		3F1ECB0A193CD02100B6EB2E = {
 			isa = PBXGroup;
 			children = (
+				3FD66B7D19405C20008832FB /* README.md */,
 				3F1ECB1C193CD02100B6EB2E /* Beers */,
 				3F1ECB35193CD02100B6EB2E /* BeersTests */,
 				3F1ECB15193CD02100B6EB2E /* Frameworks */,
