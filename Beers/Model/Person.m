@@ -20,16 +20,16 @@
 }
 
 - (id)init{
-	self=[self	initWithName:nil
-					andAddress:nil
-							andAge:0];
+	self=[self	initWithName:@"Fer"
+					andAddress:@""
+							andAge:18];
 	return self;
 }
 
 - (id)initWithName:(NSString *)name{
 	self=[self initWithName:name
-						andAddress:nil
-								andAge:0];
+						andAddress:@""
+								andAge:18];
 	return self;
 }
 
@@ -37,7 +37,7 @@
 				andAddress:(NSString *)address{
 	self= [self	initWithName:name
 								andAddress:address
-										andAge:0];
+										andAge:18];
 	return self;
 }
 - (id)initWithName:(NSString *)name

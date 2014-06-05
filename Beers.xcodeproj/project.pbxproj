@@ -18,16 +18,20 @@
 		3F1ECB31193CD02100B6EB2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1ECB16193CD02100B6EB2E /* Foundation.framework */; };
 		3F1ECB32193CD02100B6EB2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1ECB1A193CD02100B6EB2E /* UIKit.framework */; };
 		3F1ECB3A193CD02100B6EB2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1ECB38193CD02100B6EB2E /* InfoPlist.strings */; };
-		3F1ECB3C193CD02100B6EB2E /* BeersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB3B193CD02100B6EB2E /* BeersTests.m */; };
 		3F1ECB47193CD21500B6EB2E /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB46193CD21500B6EB2E /* Beer.m */; };
 		3F1ECB4A193DC37C00B6EB2E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB49193DC37C00B6EB2E /* Person.m */; };
 		3F1ECB4E193DE91C00B6EB2E /* EuroConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB4D193DE91C00B6EB2E /* EuroConverter.m */; };
 		3F1ECB52193E049500B6EB2E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */; };
 		3F1ECB57193E0B8A00B6EB2E /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */; };
 		3F1ECB5A193E0CB300B6EB2E /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */; };
+		3F415819193F14A00030F8D0 /* tardis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAB50D193E297C00A04CC8 /* tardis.jpg */; };
+		3F41581A193F14A30030F8D0 /* Doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAB50F193E2C4F00A04CC8 /* Doctor.jpg */; };
+		3F41581C193F25940030F8D0 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F41581B193F25940030F8D0 /* PersonTests.m */; };
+		3F474710193F34E000B75E4B /* BeerListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F47470F193F34E000B75E4B /* BeerListTest.m */; };
+		3F474713193F35DE00B75E4B /* BeerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F474712193F35DE00B75E4B /* BeerList.m */; };
+		3F474716193F7E0B00B75E4B /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F474715193F7E0B00B75E4B /* Hotel.m */; };
+		3F474718193F7F1200B75E4B /* HotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F474717193F7F1200B75E4B /* HotelTests.m */; };
 		3FEAB50C193E25C900A04CC8 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAB50B193E25C900A04CC8 /* AlphaViewController.m */; };
-		3FEAB50E193E297D00A04CC8 /* tardis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAB50D193E297C00A04CC8 /* tardis.jpg */; };
-		3FEAB510193E2C4F00A04CC8 /* Doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAB50F193E2C4F00A04CC8 /* Doctor.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +60,6 @@
 		3F1ECB2F193CD02100B6EB2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3F1ECB37193CD02100B6EB2E /* BeersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeersTests-Info.plist"; sourceTree = "<group>"; };
 		3F1ECB39193CD02100B6EB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F1ECB3B193CD02100B6EB2E /* BeersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeersTests.m; sourceTree = "<group>"; };
 		3F1ECB45193CD21500B6EB2E /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
 		3F1ECB46193CD21500B6EB2E /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 		3F1ECB48193DC37C00B6EB2E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -68,6 +71,13 @@
 		3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		3F1ECB58193E0CB300B6EB2E /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		3F41581B193F25940030F8D0 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
+		3F47470F193F34E000B75E4B /* BeerListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListTest.m; sourceTree = "<group>"; };
+		3F474711193F35DE00B75E4B /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
+		3F474712193F35DE00B75E4B /* BeerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerList.m; sourceTree = "<group>"; };
+		3F474714193F7E0B00B75E4B /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		3F474715193F7E0B00B75E4B /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
+		3F474717193F7F1200B75E4B /* HotelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelTests.m; path = "Supporting Files/HotelTests.m"; sourceTree = "<group>"; };
 		3FEAB50A193E25C900A04CC8 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
 		3FEAB50B193E25C900A04CC8 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
 		3FEAB50D193E297C00A04CC8 /* tardis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tardis.jpg; path = ../../../../../../Pictures/tardis.jpg; sourceTree = "<group>"; };
@@ -157,8 +167,10 @@
 		3F1ECB35193CD02100B6EB2E /* BeersTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F1ECB3B193CD02100B6EB2E /* BeersTests.m */,
 				3F1ECB36193CD02100B6EB2E /* Supporting Files */,
+				3F474717193F7F1200B75E4B /* HotelTests.m */,
+				3F41581B193F25940030F8D0 /* PersonTests.m */,
+				3F47470F193F34E000B75E4B /* BeerListTest.m */,
 			);
 			path = BeersTests;
 			sourceTree = "<group>";
@@ -181,6 +193,10 @@
 				3F1ECB49193DC37C00B6EB2E /* Person.m */,
 				3F1ECB4C193DE91C00B6EB2E /* EuroConverter.h */,
 				3F1ECB4D193DE91C00B6EB2E /* EuroConverter.m */,
+				3F474711193F35DE00B75E4B /* BeerList.h */,
+				3F474712193F35DE00B75E4B /* BeerList.m */,
+				3F474714193F7E0B00B75E4B /* Hotel.h */,
+				3F474715193F7E0B00B75E4B /* Hotel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -290,10 +306,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F415819193F14A00030F8D0 /* tardis.jpg in Resources */,
 				3F1ECB21193CD02100B6EB2E /* InfoPlist.strings in Resources */,
 				3F1ECB29193CD02100B6EB2E /* Images.xcassets in Resources */,
-				3FEAB50E193E297D00A04CC8 /* tardis.jpg in Resources */,
-				3FEAB510193E2C4F00A04CC8 /* Doctor.jpg in Resources */,
+				3F41581A193F14A30030F8D0 /* Doctor.jpg in Resources */,
 				3F1ECB52193E049500B6EB2E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +336,8 @@
 				3F1ECB4A193DC37C00B6EB2E /* Person.m in Sources */,
 				3FEAB50C193E25C900A04CC8 /* AlphaViewController.m in Sources */,
 				3F1ECB4E193DE91C00B6EB2E /* EuroConverter.m in Sources */,
+				3F474713193F35DE00B75E4B /* BeerList.m in Sources */,
+				3F474716193F7E0B00B75E4B /* Hotel.m in Sources */,
 				3F1ECB23193CD02100B6EB2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1ECB3C193CD02100B6EB2E /* BeersTests.m in Sources */,
+				3F41581C193F25940030F8D0 /* PersonTests.m in Sources */,
+				3F474710193F34E000B75E4B /* BeerListTest.m in Sources */,
+				3F474718193F7F1200B75E4B /* HotelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
