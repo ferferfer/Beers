@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 @interface PersonList : NSObject
+
+@property (nonatomic)NSUInteger count;
+
+-(void)addPerson:(Person *)person;
+-(void)removePerson:(Person *)person;
+-(NSUInteger)count;
+-(NSArray *)allPersons;
+-(BOOL)removePersonPro:(Person *)person;
 
 @end

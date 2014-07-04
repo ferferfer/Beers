@@ -12,7 +12,7 @@
 
 @property (nonatomic) NSUInteger count;
 
-
+-(id)initWithFile:(NSString *)fileName;
 -(void)addBeer:(Beer *)beer;
 -(void)removeBeer:(Beer *)beer;
 -(NSUInteger)count;

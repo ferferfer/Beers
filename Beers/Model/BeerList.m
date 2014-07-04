@@ -16,14 +16,32 @@
 
 @implementation BeerList
 
+//DESIGNATED INITIALICER
 - (instancetype)init
 {
-	self = [super init];
-	if (self) {
+	if (self = [super init]) {
 		_theList = [[NSMutableArray alloc]init];
 	}
 	return self;
 }
+
+-(id)initWithFile:(NSString *)fileName{
+	self = [self init];
+	if (self) {
+		NSString *filenameAndPath=[[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"];
+		NSArray *array=[NSArray arrayWithContentsOfFile:filenameAndPath];
+		for(NSDictionary *dict in array){
+			Beer *beer=[[Beer alloc]init];
+			beer.name=dict[@"name"];
+			beer.color=dict[@"color"];
+			beer.country=[dict objectForKey:@"country"];
+			beer.grade= [dict[@"grade"] integerValue];
+			[_theList addObject:beer];
+		}
+	}
+	return self;
+}
+
 
 -(void)addBeer:(Beer *)beer{
 	[self.theList addObject:beer];

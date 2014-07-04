@@ -24,14 +24,20 @@
 		3F1ECB52193E049500B6EB2E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1ECB51193E049500B6EB2E /* Storyboard.storyboard */; };
 		3F1ECB57193E0B8A00B6EB2E /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */; };
 		3F1ECB5A193E0CB300B6EB2E /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */; };
-		3F415819193F14A00030F8D0 /* tardis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAB50D193E297C00A04CC8 /* tardis.jpg */; };
-		3F41581A193F14A30030F8D0 /* Doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAB50F193E2C4F00A04CC8 /* Doctor.jpg */; };
+		3F3E4A4B1940D05F00C3FE3E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4A4A1940D05F00C3FE3E /* MapKit.framework */; };
 		3F41581C193F25940030F8D0 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F41581B193F25940030F8D0 /* PersonTests.m */; };
 		3F474710193F34E000B75E4B /* BeerListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F47470F193F34E000B75E4B /* BeerListTest.m */; };
 		3F474713193F35DE00B75E4B /* BeerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F474712193F35DE00B75E4B /* BeerList.m */; };
 		3F474716193F7E0B00B75E4B /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F474715193F7E0B00B75E4B /* Hotel.m */; };
 		3F474718193F7F1200B75E4B /* HotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F474717193F7F1200B75E4B /* HotelTests.m */; };
+		3F639E591940603B00E15D00 /* BeerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F639E581940603B00E15D00 /* BeerListViewController.m */; };
+		3F639E5C194078B900E15D00 /* PersonList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F639E5B194078B900E15D00 /* PersonList.m */; };
+		3F639E5E19407A0200E15D00 /* PersonListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F639E5D19407A0200E15D00 /* PersonListTest.m */; };
+		3FB7A7471940896700CD5E0B /* beerList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7A7461940896700CD5E0B /* beerList.plist */; };
 		3FEAB50C193E25C900A04CC8 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAB50B193E25C900A04CC8 /* AlphaViewController.m */; };
+		3FF45E7019632B0C00C81AAC /* 47-fuel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF45E6D19632B0C00C81AAC /* 47-fuel.png */; };
+		3FF45E7119632B0C00C81AAC /* Doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FF45E6E19632B0C00C81AAC /* Doctor.jpg */; };
+		3FF45E7219632B0C00C81AAC /* tardis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FF45E6F19632B0C00C81AAC /* tardis.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,7 @@
 		3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		3F1ECB58193E0CB300B6EB2E /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		3F3E4A4A1940D05F00C3FE3E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3F41581B193F25940030F8D0 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 		3F47470F193F34E000B75E4B /* BeerListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListTest.m; sourceTree = "<group>"; };
 		3F474711193F35DE00B75E4B /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
@@ -78,11 +85,18 @@
 		3F474714193F7E0B00B75E4B /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
 		3F474715193F7E0B00B75E4B /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
 		3F474717193F7F1200B75E4B /* HotelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelTests.m; path = "Supporting Files/HotelTests.m"; sourceTree = "<group>"; };
+		3F639E571940603B00E15D00 /* BeerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerListViewController.h; sourceTree = "<group>"; };
+		3F639E581940603B00E15D00 /* BeerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListViewController.m; sourceTree = "<group>"; };
+		3F639E5A194078B900E15D00 /* PersonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonList.h; sourceTree = "<group>"; };
+		3F639E5B194078B900E15D00 /* PersonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonList.m; sourceTree = "<group>"; };
+		3F639E5D19407A0200E15D00 /* PersonListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListTest.m; sourceTree = "<group>"; };
+		3FB7A7461940896700CD5E0B /* beerList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = beerList.plist; path = ../Assets/beerList.plist; sourceTree = "<group>"; };
 		3FD66B7D19405C20008832FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3FEAB50A193E25C900A04CC8 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
 		3FEAB50B193E25C900A04CC8 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
-		3FEAB50D193E297C00A04CC8 /* tardis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tardis.jpg; path = ../../../../../../Pictures/tardis.jpg; sourceTree = "<group>"; };
-		3FEAB50F193E2C4F00A04CC8 /* Doctor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Doctor.jpg; path = ../../../../../../Pictures/Doctor.jpg; sourceTree = "<group>"; };
+		3FF45E6D19632B0C00C81AAC /* 47-fuel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "47-fuel.png"; sourceTree = "<group>"; };
+		3FF45E6E19632B0C00C81AAC /* Doctor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doctor.jpg; sourceTree = "<group>"; };
+		3FF45E6F19632B0C00C81AAC /* tardis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tardis.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3E4A4B1940D05F00C3FE3E /* MapKit.framework in Frameworks */,
 				3F1ECB19193CD02100B6EB2E /* CoreGraphics.framework in Frameworks */,
 				3F1ECB1B193CD02100B6EB2E /* UIKit.framework in Frameworks */,
 				3F1ECB17193CD02100B6EB2E /* Foundation.framework in Frameworks */,
@@ -132,6 +147,7 @@
 		3F1ECB15193CD02100B6EB2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F3E4A4A1940D05F00C3FE3E /* MapKit.framework */,
 				3F1ECB16193CD02100B6EB2E /* Foundation.framework */,
 				3F1ECB18193CD02100B6EB2E /* CoreGraphics.framework */,
 				3F1ECB1A193CD02100B6EB2E /* UIKit.framework */,
@@ -173,6 +189,7 @@
 				3F474717193F7F1200B75E4B /* HotelTests.m */,
 				3F41581B193F25940030F8D0 /* PersonTests.m */,
 				3F47470F193F34E000B75E4B /* BeerListTest.m */,
+				3F639E5D19407A0200E15D00 /* PersonListTest.m */,
 			);
 			path = BeersTests;
 			sourceTree = "<group>";
@@ -189,6 +206,7 @@
 		3F1ECB4B193DC47B00B6EB2E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3FB7A7461940896700CD5E0B /* beerList.plist */,
 				3F1ECB45193CD21500B6EB2E /* Beer.h */,
 				3F1ECB46193CD21500B6EB2E /* Beer.m */,
 				3F1ECB48193DC37C00B6EB2E /* Person.h */,
@@ -199,6 +217,8 @@
 				3F474712193F35DE00B75E4B /* BeerList.m */,
 				3F474714193F7E0B00B75E4B /* Hotel.h */,
 				3F474715193F7E0B00B75E4B /* Hotel.m */,
+				3F639E5A194078B900E15D00 /* PersonList.h */,
+				3F639E5B194078B900E15D00 /* PersonList.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,6 +240,8 @@
 				3F1ECB56193E0B8A00B6EB2E /* EuroCalculatorViewController.m */,
 				3F1ECB58193E0CB300B6EB2E /* EuroConverterViewController.h */,
 				3F1ECB59193E0CB300B6EB2E /* EuroConverterViewController.m */,
+				3F639E571940603B00E15D00 /* BeerListViewController.h */,
+				3F639E581940603B00E15D00 /* BeerListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -227,8 +249,9 @@
 		3F415817193F03830030F8D0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3FEAB50D193E297C00A04CC8 /* tardis.jpg */,
-				3FEAB50F193E2C4F00A04CC8 /* Doctor.jpg */,
+				3FF45E6D19632B0C00C81AAC /* 47-fuel.png */,
+				3FF45E6E19632B0C00C81AAC /* Doctor.jpg */,
+				3FF45E6F19632B0C00C81AAC /* tardis.jpg */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -308,10 +331,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F415819193F14A00030F8D0 /* tardis.jpg in Resources */,
+				3FB7A7471940896700CD5E0B /* beerList.plist in Resources */,
+				3FF45E7019632B0C00C81AAC /* 47-fuel.png in Resources */,
+				3FF45E7219632B0C00C81AAC /* tardis.jpg in Resources */,
 				3F1ECB21193CD02100B6EB2E /* InfoPlist.strings in Resources */,
 				3F1ECB29193CD02100B6EB2E /* Images.xcassets in Resources */,
-				3F41581A193F14A30030F8D0 /* Doctor.jpg in Resources */,
+				3FF45E7119632B0C00C81AAC /* Doctor.jpg in Resources */,
 				3F1ECB52193E049500B6EB2E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +358,7 @@
 			files = (
 				3F1ECB47193CD21500B6EB2E /* Beer.m in Sources */,
 				3F1ECB57193E0B8A00B6EB2E /* EuroCalculatorViewController.m in Sources */,
+				3F639E5C194078B900E15D00 /* PersonList.m in Sources */,
 				3F1ECB5A193E0CB300B6EB2E /* EuroConverterViewController.m in Sources */,
 				3F1ECB27193CD02100B6EB2E /* AppDelegate.m in Sources */,
 				3F1ECB4A193DC37C00B6EB2E /* Person.m in Sources */,
@@ -341,6 +367,7 @@
 				3F474713193F35DE00B75E4B /* BeerList.m in Sources */,
 				3F474716193F7E0B00B75E4B /* Hotel.m in Sources */,
 				3F1ECB23193CD02100B6EB2E /* main.m in Sources */,
+				3F639E591940603B00E15D00 /* BeerListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +377,7 @@
 			files = (
 				3F41581C193F25940030F8D0 /* PersonTests.m in Sources */,
 				3F474710193F34E000B75E4B /* BeerListTest.m in Sources */,
+				3F639E5E19407A0200E15D00 /* PersonListTest.m in Sources */,
 				3F474718193F7F1200B75E4B /* HotelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

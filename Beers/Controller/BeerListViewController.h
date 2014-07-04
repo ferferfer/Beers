@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BeerListViewController : UIViewController
+@interface BeerListViewController : UIViewController <UIPickerViewDataSource,UIPickerViewDelegate>
+
+
 
 @end

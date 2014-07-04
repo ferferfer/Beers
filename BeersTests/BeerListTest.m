@@ -184,4 +184,18 @@
 	}
 }
 
+-(void)testCanInitializeWithFile{
+	BeerList *bl=[[BeerList alloc]initWithFile:@"beerList"];
+	//bl cant be nil
+	XCTAssertNotNil(bl, @"");
+	//bl must be>0
+	XCTAssertTrue(bl.count > 0, @"bl.count %i",bl.count);
+	//every element in bl is of type Beer
+		//and beer.name is not null ForAll(beers)
+	for (Beer *beer in [bl allBeers]) {
+    XCTAssertTrue([beer isKindOfClass:[Beer class]], @"");
+		XCTAssertNotNil(beer.name, @"");
+	}
+}
+
 @end
